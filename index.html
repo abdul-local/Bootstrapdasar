@@ -6,171 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <title>Hello, world!</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    
   </head>
   <body>
-   <p class="text-left">text-left</p>
-    <p class="text-right">text-right</p>
-    <p class="text-center">text-Center</p>
-    <p class="text-justife">text-justife</p>
-    <p class="text-nowrap">text-nowrap</p>
-<table class="table table-striped">
-  <thead>
-      <tr>
-          <th class="scope">No</th>
-          <th class="scope">Nama</th>
-          <th class="scope">Alamat</th>
-          <th class="scope">Email</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <th class="scope">1</th>
-          <td>abdul</td>
-          <td>jl.Cemara Malang</td>
-          <td>adullah.hamzan@gmail.com</td>
-      </tr>
-      <tr>
-          <th class="scope">2</th>
-          <td>rody</td>
-          <td>jl.tambora dompu </td>
-          <td>rody432@gmail.com</td>
-      </tr>
-      <tr>
-          <th class="scope">3</th>
-          <td>huswatun</td>
-          <td>jl.puntik mataram</td>
-          <td>huswatunhassanah@gmail.com</td>
-      </tr>
-  </tbody>
-</table>
-   
-   <table class="table table-bordered">
-  <thead>
-      <tr>
-          <th class="scope">No</th>
-          <th class="scope">Nama</th>
-          <th class="scope">Alamat</th>
-          <th class="scope">Email</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <th class="scope">1</th>
-          <td>abdul</td>
-          <td>jl.Cemara Malang</td>
-          <td>adullah.hamzan@gmail.com</td>
-      </tr>
-      <tr>
-          <th class="scope">2</th>
-          <td>rody</td>
-          <td>jl.tambora dompu </td>
-          <td>rody432@gmail.com</td>
-      </tr>
-      <tr>
-          <th class="scope">3</th>
-          <td>huswatun</td>
-          <td>jl.puntik mataram</td>
-          <td>huswatunhassanah@gmail.com</td>
-      </tr>
-      
-      <table class="table table-hover">
-  <thead>
-      <tr>
-          <th class="scope">No</th>
-          <th class="scope">Nama</th>
-          <th class="scope">Alamat</th>
-          <th class="scope">Email</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <th class="scope">1</th>
-          <td>abdul</td>
-          <td>jl.Cemara Malang</td>
-          <td>adullah.hamzan@gmail.com</td>
-      </tr>
-      <tr>
-          <th class="scope">2</th>
-          <td>rody</td>
-          <td>jl.tambora dompu </td>
-          <td>rody432@gmail.com</td>
-      </tr>
-      <tr>
-          <th class="scope">3</th>
-          <td>huswatun</td>
-          <td>jl.puntik mataram</td>
-          <td>huswatunhassanah@gmail.com</td>
-      </tr>
-  </tbody>
-</table>
- <table class="table">
-  <thead>
-      <tr class="bg-primary">
-          <th class="scope">No</th>
-          <th class="scope">Nama</th>
-          <th class="scope">Alamat</th>
-          <th class="scope">Email</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr class="bg-info">
-          <th class="scope">1</th>
-          <td>abdul</td>
-          <td>jl.Cemara Malang</td>
-          <td>adullah.hamzan@gmail.com</td>
-      </tr>
-      <tr class="bg-succes">
-          <th class="scope">2</th>
-          <td>rody</td>
-          <td>jl.tambora dompu </td>
-          <td>rody432@gmail.com</td>
-      </tr>
-      <tr class="bg-danger">
-          <th class="scope">3</th>
-          <td>huswatun</td>
-          <td>jl.puntik mataram</td>
-          <td>huswatunhassanah@gmail.com</td>
-      </tr>
-  </tbody>
-</table>
-  </tbody>
-</table>
+  <div class="container">
+  <form action="/aksi.php">
+   <div class="form-group">
+       <label for="nama">Nama:</label>
+       <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+        <label for="email">email:</label>
+       <input type="email" class="form-control">
+       </div>
+       <div class="form-group">
+        <label for="alamat">Alamat:</label>
+       <textarea name="alamat" class="form-control"  rows="3"></textarea>
+       </div>
+       <buton type="button" class="btn btn-default">submit</buton>
+       
+       
   
-  <div class="table-responsive">
-   <table class="table">
-  <thead>
-      <tr>
-          <th class="scope">No</th>
-          <th class="scope">Nama</th>
-          <th class="scope">Alamat</th>
-          <th class="scope">Email</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <th class="scope">1</th>
-          <td>abdul</td>
-          <td>jl.Cemara Malang</td>
-          <td>adullah.hamzan@gmail.com</td>
-      </tr>
-      <tr>
-          <th class="scope">2</th>
-          <td>rody</td>
-          <td>jl.tambora dompu </td>
-          <td>rody432@gmail.com</td>
-      </tr>
-      <tr>
-          <th class="scope">3</th>
-          <td>huswatun</td>
-          <td>jl.puntik mataram</td>
-          <td>huswatunhassanah@gmail.com</td>
-      </tr>
-  </tbody>
-</table>
+   </form>
    </div>
+   <div class="container">
+      <form class="form-horizontal" action="/aksi.php">
+          <div class="form-group">
+             <label class="control-label col-sm-2" for="username">Username:</label>
+             <div class="col-sm-10">
+             <input type="text" class="form-control" placeholder="Enter Uername">
+             </div>
+          </div>
+          <div class="form-group">
+              <label class="control-label col-sm-2" for="password">:password</label>
+              <div class="col-sm-10">
+              <input type="email" class="form-control" placeholder="password">
+              </div>
+              </div>
+          <div class="form-group">
+             <div class="col-sm-offset-2 col-sm-10">
+                 <div class="chexkbox">
+                     <label ><input type="checkbox">remember me</label>
+                 </div>
+             </div>
+              
+          </div>
+          <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+          </div>
+          
+          
+      </form>
+            
+         
+   </div>
+   <div class="container">
+      <form class="form-inline" action="/aksi.php">
+       <div class="form-group">
+           <label for="email">Email</label>
+           <input type="email" class="form-control">
+       </div>
+        <div class="form-group">
+            <label for="password">:Password</label>
+            <input type="password" class="form-control">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox">remember me </label>
+        </div>
+        <div class="form-group">
+           <button type="submit" class="btn btn-default">Submit</button>
+            
+        </div>
+      </form>
+       
+   </div>
+   
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
