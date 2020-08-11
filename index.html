@@ -12,246 +12,39 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  <!-- membuat tabel dengan Bootstrap 4 dengan class table -->
-  <!--
-  <table class="table">
-      <thead>
-          <tr>
-              <th scope="col">No</th>
-              <th scope="col">Nama</th>
-              <th scope="col">Alamat</th>
-              <th scope="col">Email</th>
-          </tr>
-      </thead>
-      <tr>
-          <th scope="row">1</th>
-          <td>Anisa</td>
-          <td>jl.cemara malang</td>
-          <td>anisa@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">2</th>
-          <td>Naufal</td>
-          <td>jl.Merak Bandung</td>
-          <td>naufal@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">3</th>
-          <td>Muhammad</td>
-          <td>jl.Angkasa Jakarta</td>
-          <td>muhammad@codepolitan.com</td>
-      </tr>
-  </table>
-  -->
-  <!-- membuat tabel dengan dengan tabahan class table-dark-->
-
-   <table class="table ">
-      <thead class="thead-dark">
-          <tr>
-              <th scope="col">No</th>
-              <th scope="col">Nama</th>
-              <th scope="col">Alamat</th>
-              <th scope="col">Email</th>
-          </tr>
-      </thead>
-      <tr>
-          <th scope="row">1</th>
-          <td>Anisa</td>
-          <td>jl.cemara malang</td>
-          <td>anisa@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">2</th>
-          <td>Naufal</td>
-          <td>jl.Merak Bandung</td>
-          <td>naufal@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">3</th>
-          <td>Muhammad</td>
-          <td>jl.Angkasa Jakarta</td>
-          <td>muhammad@codepolitan.com</td>
-      </tr>
-  </table>
+  <!-- pembuatan tombol dengan class yang sudah di sediakan oleh bootstrap -->
+  <button type="button" class="btn">btn</button>
+  <button type="button" class="btn btn-default">btn-default</button>
+  <button type="button" class="btn btn-primary">btn-primary</button>
+  <button type="button" class="btn btn-secondary">btn-secondary</button>
+  <button type="button" class="btn btn-success">btn-success</button>
+  <button type="button" class="btn btn-info">btn-info</button>
+  <button type="button" class="btn btn-warning">btn-warning</button>
+  <button type="button" class="btn btn-danger">btn-danger</button>
+  <button type="button" class="btn btn-dark">btn-dark</button>
+  <button type="button" class="btn btn-light">btn-light</button>
+  <br>
+  <!-- ubah ukuran Button pada class Bootstrap 4 -->
+  <button type="button" class="btn btn-primary btn-lg">btn large</button>
+  <button class="btn btn-secondary btn-sm">btn sm</button>
+  <br>
+  <br>
+  <!-- active / disable pada button -->
+  <button type="button" class="btn btn-primary active">btn active</button>
+  <button type="button" class="btn btn-primary disable">btn disable</button>
+  <br>
+  <br>
+  <!-- button outline pada Bootstrap 4 -->
+  <button type="button" class="btn btn-outline-primary">primary</button>
+  <button type="button" class="btn btn-outline-secondary">secondary</button>
+  <button type="button" class="btn btn-outline-success">Success</button>
+  <button type="button" class="btn btn-outline-info">info</button>
+  <button type="button" class="btn btn-outline-warning">warning</button>
+  <button type="button" class="btn btn-outline-danger">danger</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
+  <button type="button" class="btn btn-outline-light">Light</button>
   
-  <!-- membuat tabel dengan tambahan class table-striped-->
-  <!--
-  <table class="table table-striped">
-      <thead>
-          <tr>
-              <th scope="col">No</th>
-              <th scope="col">Nama</th>
-              <th scope="col">Alamat</th>
-              <th scope="col">Email</th>
-          </tr>
-      </thead>
-      <tr>
-          <th scope="row">1</th>
-          <td>Anisa</td>
-          <td>jl.cemara malang</td>
-          <td>anisa@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">2</th>
-          <td>Naufal</td>
-          <td>jl.Merak Bandung</td>
-          <td>naufal@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">3</th>
-          <td>Muhammad</td>
-          <td>jl.Angkasa Jakarta</td>
-          <td>muhammad@codepolitan.com</td>
-      </tr>
-  </table>
-  -->
-  <!-- membuat tabel dengan tambahan class table-bordered-->
-  <!--
-  <table class="table table-bordered">
-      <thead>
-          <tr>
-              <th scope="col">No</th>
-              <th scope="col">Nama</th>
-              <th scope="col">Alamat</th>
-              <th scope="col">Email</th>
-          </tr>
-      </thead>
-      <tr>
-          <th scope="row">1</th>
-          <td>Anisa</td>
-          <td>jl.cemara malang</td>
-          <td>anisa@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">2</th>
-          <td>Naufal</td>
-          <td>jl.Merak Bandung</td>
-          <td>naufal@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">3</th>
-          <td>Muhammad</td>
-          <td>jl.Angkasa Jakarta</td>
-          <td>muhammad@codepolitan.com</td>
-      </tr>
-  </table>
-  -->
-  <!-- membuat tabel dengan tambahan class table-hover -->
-  <!--
-  <table class="table table-hover">
-      <thead>
-          <tr>
-              <th scope="col">No</th>
-              <th scope="col">Nama</th>
-              <th scope="col">Alamat</th>
-              <th scope="col">Email</th>
-          </tr>
-      </thead>
-      <tr>
-          <th scope="row">1</th>
-          <td>Anisa</td>
-          <td>jl.cemara malang</td>
-          <td>anisa@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">2</th>
-          <td>Naufal</td>
-          <td>jl.Merak Bandung</td>
-          <td>naufal@codepolitan.com</td>
-      </tr>
-      <tr>
-          <th scope="row">3</th>
-          <td>Muhammad</td>
-          <td>jl.Angkasa Jakarta</td>
-          <td>muhammad@codepolitan.com</td>
-      </tr>
-  </table>
-  -->
-  <!-- menggunakan class contextual untuk menambahakan class terbaru -->
-  <!--
-  <table class="table">
-     <thead>
-         <tr>
-             <th>No</th>
-             <th>Class</th>
-         </tr>
-     </thead>
-     <tbody>
-         <tr class="table-success">
-             <td>1</td>
-             <td>table-success</td>
-         </tr>
-         <tr class="table-warning">
-             <td>2</td>
-             <td>table-warning</td>
-         </tr>
-         <tr class="table-danger">
-             <td>3</td>
-             <td>table-danger</td>
-         </tr>
-         <tr class="table-info">
-             <td>4</td>
-             <td>table-info</td>
-         </tr>
-         <tr class="table-active">
-             <td>5</td>
-             <td>table-active</td>
-         </tr>
-         <tr class="table-primary">
-             <td>6</td>
-             <td>table-success</td>
-         </tr>
-         <tr class="table-secondary">
-             <td>7</td>
-             <td>table-secondary</td>
-         </tr>
-         <tr class="table-light">
-             <td>8</td>
-             <td>table-light</td>
-         </tr>
-     </tbody>
-      
-  </table>
-  -->
-  <!--
-  <table class="table">
-      <thead>
-          <tr>
-              <th>Col 1</th>
-              <th>Col 2</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td class="table-success">table-success</td>
-              <td class="table-warning">table-warning</td>
-          </tr>
-          <tr>
-              <td class="table-danger">table-danger</td>
-              <td class="table-info">table-info</td>
-          </tr>
-      </tbody>
-  </table>
-  -->
-  <!--membuat table jadi lebih responsive -->
-  <!--
-  <div class="table-responsive">
-      <table class="table">
-          <thead>
-             <tr>
-              <th >No</th>
-              <th >Heading</th>
-              </tr>
-          </thead>
-      </table>
-      <tbody>
-          <tr>
-             <td>1</td>
-             <td>cell</td> 
-          </tr>
-      </tbody>
-  </div>
-  -->
+
   
    
     <!-- Optional JavaScript -->
