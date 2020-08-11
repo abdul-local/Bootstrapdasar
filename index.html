@@ -12,87 +12,247 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  <!-- Pengaturan dasar pada Bootstap 4 -->
-  <h1> h1 Bootstrap 4 heading</h1>
-  <h2> h2 Bootstrap 4 heading</h2>
-  <h3> h3 Bootstrap 4 heading</h3>
-  <h4> h4 Bootstrap 4 heading</h4>
-  <h5> h5 Bootstrap 4 heading</h5>
-  <h6> h6 Bootstrap 4 heading</h6>
-  <p class="display-1">Display 1</p>
-  <p class="display-2">Display 2</p>
-  <p class="display-3">Display 3</p>
-  <p class="display-4">Display 4</p>
+  <!-- membuat tabel dengan Bootstrap 4 dengan class table -->
+  <!--
+  <table class="table">
+      <thead>
+          <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Email</th>
+          </tr>
+      </thead>
+      <tr>
+          <th scope="row">1</th>
+          <td>Anisa</td>
+          <td>jl.cemara malang</td>
+          <td>anisa@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>Naufal</td>
+          <td>jl.Merak Bandung</td>
+          <td>naufal@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">3</th>
+          <td>Muhammad</td>
+          <td>jl.Angkasa Jakarta</td>
+          <td>muhammad@codepolitan.com</td>
+      </tr>
+  </table>
+  -->
+  <!-- membuat tabel dengan dengan tabahan class table-dark-->
+
+   <table class="table ">
+      <thead class="thead-dark">
+          <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Email</th>
+          </tr>
+      </thead>
+      <tr>
+          <th scope="row">1</th>
+          <td>Anisa</td>
+          <td>jl.cemara malang</td>
+          <td>anisa@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>Naufal</td>
+          <td>jl.Merak Bandung</td>
+          <td>naufal@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">3</th>
+          <td>Muhammad</td>
+          <td>jl.Angkasa Jakarta</td>
+          <td>muhammad@codepolitan.com</td>
+      </tr>
+  </table>
   
-  <div class="container">
-      <h1>h1 heading <small>ini judul sekunder</small></h1>
-      <h2>h2 heading <small>ini judul sekunder</small></h2>
-      <h3>h3 heading <small>ini judul sekunder</small></h3>
-      <h4>h4 heading <small>ini judul sekunder</small></h4>
-  </div>
-  <!-- menggunakan aligment class rata kiri-->
-  
-  <p class="text-left">
-      ini text-left, ini text-left, ini text-left
-  </p>
-  <p class="text-sm-left">Text rata kiri pada layar kecil atau lebih lebar</p>
-  <p class="text-md-left">Text rata kiri pada layar medium atau lebih lebar</p>
-  <p class="text-lg-left">Text rata kiri pada layar large atau lebih lebar</p>
-  <p class="text-xl-left">Text rata kiri pada layar extra large atau lebih lebar</p>
-  <br>
-  <p class="text-right">
-      ini text-right, ini text-right, ini text-right
-  </p>
-  <br>
-  <br>
-  <p class="text-sm-right">Text rata kanan pada layar kecil atau lebih lebar</p>
-  <p class="text-md-right">Text rata kanan pada layar medium atau lebih lebar</p>
-  <p class="text-lg-right">Text rata kanan pada layar large atau lebih lebar</p>
-  <p class="text-xl-right">Text rata kanan pada layar extra large atau lebih lebar</p>
-  <br>
-  <br>
-  <p class="text-center">
-      ini text-center, ini text-center, ini text-center
-  </p>
-  <br>
-  <p class="text-sm-center">Text rata Tengah pada layar kecil atau lebih lebar</p>
-  <p class="text-md-center">Text rata Tengah pada layar medium atau lebih lebar</p>
-  <p class="text-lg-center">Text rata Tengah pada layar large atau lebih lebar</p>
-  <p class="text-xl-center">Text rata Tengah pada layar extra large atau lebih lebar</p>
-  <br>
-  <br>
-  <p class="text-justify">
-      ini text-justify,ini text-justify, ini text-justyfy
-  </p>
-  <br>
-  <br>
-  <p class="text-sm-justify">Text rata justify pada layar kecil atau lebih lebar</p>
-  <p class="text-md-justify">Text rata justify pada layar medium atau lebih lebar</p>
-  <p class="text-lg-justify">Text rata justify pada layar large atau lebih lebar</p>
-  <p class="text-xl-justify">Text rata justify pada layar extra large atau lebih lebar</p>
-  <br>
-  <br>
-  <br>
-  <!-- penggunaan lead untuk membuat tampilan lebih menonjol -->
-  <p>ini bootstrap typography, ini bootstap typography, ini Bootsrap typography</p>
-  <p class="lead">
-      ini Bootstrap 4, ini Bootstrap 4, ini Bootsrap 4
-  </p>
-  <!-- abbr digunakan untuk menandai dan menampilkan singkatan -->
-  <p><abbr title="Cascading Style Sheets">CSS</abbr></p>
-  <p><abbr title="HyperText Markup Language">HTML</abbr></p>
-  
-  <div class="container">
-      <p class="bg-primary text-white">bg-primary</p>
-      <p class="bg-success text-white">bg-success</p>
-      <p class="bg-info text-white">bg-info</p>
-      <p class="bg-warning text-white">bg-warning</p>
-      <p class="bg-danger text-white">bg-danger</p>
-      <p class="bg-secondary text-white">bg-secondary</p>
-      <p class="bg-dark text-white">bg-dark</p>
-      <p class="bg-light text-dark">bg-light</p>
+  <!-- membuat tabel dengan tambahan class table-striped-->
+  <!--
+  <table class="table table-striped">
+      <thead>
+          <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Email</th>
+          </tr>
+      </thead>
+      <tr>
+          <th scope="row">1</th>
+          <td>Anisa</td>
+          <td>jl.cemara malang</td>
+          <td>anisa@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>Naufal</td>
+          <td>jl.Merak Bandung</td>
+          <td>naufal@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">3</th>
+          <td>Muhammad</td>
+          <td>jl.Angkasa Jakarta</td>
+          <td>muhammad@codepolitan.com</td>
+      </tr>
+  </table>
+  -->
+  <!-- membuat tabel dengan tambahan class table-bordered-->
+  <!--
+  <table class="table table-bordered">
+      <thead>
+          <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Email</th>
+          </tr>
+      </thead>
+      <tr>
+          <th scope="row">1</th>
+          <td>Anisa</td>
+          <td>jl.cemara malang</td>
+          <td>anisa@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>Naufal</td>
+          <td>jl.Merak Bandung</td>
+          <td>naufal@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">3</th>
+          <td>Muhammad</td>
+          <td>jl.Angkasa Jakarta</td>
+          <td>muhammad@codepolitan.com</td>
+      </tr>
+  </table>
+  -->
+  <!-- membuat tabel dengan tambahan class table-hover -->
+  <!--
+  <table class="table table-hover">
+      <thead>
+          <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Email</th>
+          </tr>
+      </thead>
+      <tr>
+          <th scope="row">1</th>
+          <td>Anisa</td>
+          <td>jl.cemara malang</td>
+          <td>anisa@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>Naufal</td>
+          <td>jl.Merak Bandung</td>
+          <td>naufal@codepolitan.com</td>
+      </tr>
+      <tr>
+          <th scope="row">3</th>
+          <td>Muhammad</td>
+          <td>jl.Angkasa Jakarta</td>
+          <td>muhammad@codepolitan.com</td>
+      </tr>
+  </table>
+  -->
+  <!-- menggunakan class contextual untuk menambahakan class terbaru -->
+  <!--
+  <table class="table">
+     <thead>
+         <tr>
+             <th>No</th>
+             <th>Class</th>
+         </tr>
+     </thead>
+     <tbody>
+         <tr class="table-success">
+             <td>1</td>
+             <td>table-success</td>
+         </tr>
+         <tr class="table-warning">
+             <td>2</td>
+             <td>table-warning</td>
+         </tr>
+         <tr class="table-danger">
+             <td>3</td>
+             <td>table-danger</td>
+         </tr>
+         <tr class="table-info">
+             <td>4</td>
+             <td>table-info</td>
+         </tr>
+         <tr class="table-active">
+             <td>5</td>
+             <td>table-active</td>
+         </tr>
+         <tr class="table-primary">
+             <td>6</td>
+             <td>table-success</td>
+         </tr>
+         <tr class="table-secondary">
+             <td>7</td>
+             <td>table-secondary</td>
+         </tr>
+         <tr class="table-light">
+             <td>8</td>
+             <td>table-light</td>
+         </tr>
+     </tbody>
       
+  </table>
+  -->
+  <!--
+  <table class="table">
+      <thead>
+          <tr>
+              <th>Col 1</th>
+              <th>Col 2</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td class="table-success">table-success</td>
+              <td class="table-warning">table-warning</td>
+          </tr>
+          <tr>
+              <td class="table-danger">table-danger</td>
+              <td class="table-info">table-info</td>
+          </tr>
+      </tbody>
+  </table>
+  -->
+  <!--membuat table jadi lebih responsive -->
+  <!--
+  <div class="table-responsive">
+      <table class="table">
+          <thead>
+             <tr>
+              <th >No</th>
+              <th >Heading</th>
+              </tr>
+          </thead>
+      </table>
+      <tbody>
+          <tr>
+             <td>1</td>
+             <td>cell</td> 
+          </tr>
+      </tbody>
   </div>
+  -->
+  
    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
